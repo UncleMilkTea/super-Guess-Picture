@@ -13,6 +13,8 @@
 		A2A8759C1C27FF5700A8927D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A8759A1C27FF5700A8927D /* Main.storyboard */; };
 		A2A8759E1C27FF5700A8927D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A8759D1C27FF5700A8927D /* Assets.xcassets */; };
 		A2A875A11C27FF5700A8927D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A8759F1C27FF5700A8927D /* LaunchScreen.storyboard */; };
+		A2A875A91C28002200A8927D /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2A875A81C28002200A8927D /* questions.plist */; settings = {ASSET_TAGS = (); }; };
+		A2A875AC1C2817B800A8927D /* dataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A875AB1C2817B800A8927D /* dataModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		A2A8759D1C27FF5700A8927D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A875A01C27FF5700A8927D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A875A21C27FF5700A8927D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A875A81C28002200A8927D /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		A2A875AA1C2817B800A8927D /* dataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataModel.h; sourceTree = "<group>"; };
+		A2A875AB1C2817B800A8927D /* dataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,8 @@
 				A2A875951C27FF5700A8927D /* AppDelegate.m */,
 				A2A875971C27FF5700A8927D /* ViewController.h */,
 				A2A875981C27FF5700A8927D /* ViewController.m */,
+				A2A875AA1C2817B800A8927D /* dataModel.h */,
+				A2A875AB1C2817B800A8927D /* dataModel.m */,
 				A2A8759A1C27FF5700A8927D /* Main.storyboard */,
 				A2A8759D1C27FF5700A8927D /* Assets.xcassets */,
 				A2A8759F1C27FF5700A8927D /* LaunchScreen.storyboard */,
@@ -74,6 +81,7 @@
 		A2A875911C27FF5700A8927D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A2A875A81C28002200A8927D /* questions.plist */,
 				A2A875921C27FF5700A8927D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A875A91C28002200A8927D /* questions.plist in Resources */,
 				A2A875A11C27FF5700A8927D /* LaunchScreen.storyboard in Resources */,
 				A2A8759E1C27FF5700A8927D /* Assets.xcassets in Resources */,
 				A2A8759C1C27FF5700A8927D /* Main.storyboard in Resources */,
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2A875991C27FF5700A8927D /* ViewController.m in Sources */,
+				A2A875AC1C2817B800A8927D /* dataModel.m in Sources */,
 				A2A875961C27FF5700A8927D /* AppDelegate.m in Sources */,
 				A2A875931C27FF5700A8927D /* main.m in Sources */,
 			);
